@@ -1,0 +1,718 @@
+[ 2017-06-29T12:22:38+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0417s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0115s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('14','1','机身颜色:金色,存储容量:128G,运行内存:6G,','5') [ RunTime:0.0873s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_mem_id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002974s ]
+
+[ 2017-06-29T12:23:32+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0489s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=1849 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2017-06-29T12:23:35+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=1850 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2017-06-29T12:23:56+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.1145s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2017-06-29T12:23:57+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2017-06-29T12:37:00+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1850 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1862 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0104s ]
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cgn_mem_id' doesn't have a default value
+
+[ 2017-06-29T12:37:01+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0381s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1850 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1862 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0104s ]
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cgn_mem_id' doesn't have a default value
+
+[ 2017-06-29T12:37:17+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0579s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0101s ]
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cgn_mem_id' doesn't have a default value
+
+[ 2017-06-29T12:37:18+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0145s ]
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cgn_mem_id' doesn't have a default value
+
+[ 2017-06-29T12:37:19+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0314s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0149s ]
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cgn_mem_id' doesn't have a default value
+
+[ 2017-06-29T12:37:20+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0115s ]
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cgn_mem_id' doesn't have a default value
+
+[ 2017-06-29T12:37:21+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0628s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0349s ]
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cgn_mem_id' doesn't have a default value
+
+[ 2017-06-29T12:37:23+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0126s ]
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cgn_mem_id' doesn't have a default value
+
+[ 2017-06-29T12:37:25+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0137s ]
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cgn_mem_id' doesn't have a default value
+
+[ 2017-06-29T12:37:26+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0106s ]
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cgn_mem_id' doesn't have a default value
+
+[ 2017-06-29T13:06:33+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0132s ]
+SQL: INSERT INTO `sp_consignee` (`cgn_name`,`cgn_prov_id`,`cgn_city_id`,`cgn_area_id`,`cgn_address`,`cgn_tel`,`cgn_mem_id`) VALUES ('jax','1849','0','0','Array金融港','1888888888','5') [ RunTime:0.0652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003292s ]
+
+[ 2017-06-29T13:06:34+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0818s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0225s ]
+SQL: INSERT INTO `sp_consignee` (`cgn_name`,`cgn_prov_id`,`cgn_city_id`,`cgn_area_id`,`cgn_address`,`cgn_tel`,`cgn_mem_id`) VALUES ('jax','1849','0','0','Array金融港','1888888888','5') [ RunTime:0.0819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003090s ]
+
+[ 2017-06-29T13:07:56+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=859 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2017-06-29T13:07:58+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=1849 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2017-06-29T13:08:00+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=1850 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-06-29T13:08:05+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002428s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0710s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1850 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1856 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0109s ]
+SQL: INSERT INTO `sp_consignee` (`cgn_name`,`cgn_prov_id`,`cgn_city_id`,`cgn_area_id`,`cgn_address`,`cgn_tel`,`cgn_mem_id`) VALUES ('jax','1849','1850','1856','ArrayArrayArray金融港','1888888888','5') [ RunTime:0.0732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001851s ]
+
+[ 2017-06-29T13:08:07+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1849 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1850 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1856 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0121s ]
+SQL: INSERT INTO `sp_consignee` (`cgn_name`,`cgn_prov_id`,`cgn_city_id`,`cgn_area_id`,`cgn_address`,`cgn_tel`,`cgn_mem_id`) VALUES ('jax','1849','1850','1856','ArrayArrayArray金融港','1888888888','5') [ RunTime:0.0434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-06-29T13:14:56+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=37 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2017-06-29T13:14:59+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=1849 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2017-06-29T13:15:01+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=1850 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2017-06-29T13:15:06+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `sp_region` WHERE ( id=1849 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1850 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1862 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0106s ]
+SQL: INSERT INTO `sp_consignee` (`cgn_name`,`cgn_prov_id`,`cgn_city_id`,`cgn_area_id`,`cgn_address`,`cgn_tel`,`cgn_mem_id`) VALUES ('jax','1849','1850','1862','ArrayArrayArray金融港','1888888888','5') [ RunTime:0.0649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001884s ]
+
+[ 2017-06-29T13:15:07+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sp_region` WHERE ( id=1849 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1850 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1862 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+NOTIC: [8] Array to string conversion D:\sever\text\itshop\Application\Home\Controller\CartController.class.php 第 151 行.
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0109s ]
+SQL: INSERT INTO `sp_consignee` (`cgn_name`,`cgn_prov_id`,`cgn_city_id`,`cgn_area_id`,`cgn_address`,`cgn_tel`,`cgn_mem_id`) VALUES ('jax','1849','1850','1862','ArrayArrayArray金融港','1888888888','5') [ RunTime:0.0351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2017-06-29T13:18:23+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0604s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=1255 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2017-06-29T13:18:28+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.1292s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=1339 )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002149s ]
+
+[ 2017-06-29T13:18:44+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0559s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `sp_region` WHERE ( id=1255 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1339 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1342 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0115s ]
+SQL: INSERT INTO `sp_consignee` (`cgn_name`,`cgn_prov_id`,`cgn_city_id`,`cgn_area_id`,`cgn_address`,`cgn_tel`,`cgn_mem_id`) VALUES ('jax','1255','1339','1342','福建省龙岩市长汀县金融港','1888888888','5') [ RunTime:0.0398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2017-06-29T13:18:45+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0517s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `sp_region` WHERE ( id=1255 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1339 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 1342 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0118s ]
+SQL: INSERT INTO `sp_consignee` (`cgn_name`,`cgn_prov_id`,`cgn_city_id`,`cgn_area_id`,`cgn_address`,`cgn_tel`,`cgn_mem_id`) VALUES ('jax','1255','1339','1342','福建省龙岩市长汀县金融港','1888888888','5') [ RunTime:0.0433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2017-06-29T13:25:53+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=37 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2017-06-29T13:25:55+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=61 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-06-29T13:26:00+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sp_region` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-29T13:26:01+08:00 ] 127.0.0.1 /index.php/Cart/cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003343s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `sp_region` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-29T16:12:19+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=37 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2017-06-29T16:12:22+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=61 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2017-06-29T16:12:45+08:00 ] 127.0.0.1 /index.php/Cart/deal_cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0326s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `sp_region` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0124s ]
+SQL: INSERT INTO `sp_consignee` (`cgn_name`,`cgn_prov_id`,`cgn_city_id`,`cgn_area_id`,`cgn_address`,`cgn_tel`,`cgn_mem_id`) VALUES ('liu','37','61','63','河北省唐山市路南区我也不知道在哪','1888888888','5') [ RunTime:0.0399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-29T16:22:12+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0553s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0241s ]
+SQL: UPDATE `sp_consignee` SET `cgn_default`='是' WHERE `cgn_id` = 0 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002003s ]
+
+[ 2017-06-29T16:23:25+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0179s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-29T16:24:52+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0176s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-29T16:24:57+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0207s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-29T16:25:01+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0463s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0215s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-29T16:26:23+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0256s ]
+SQL: UPDATE `sp_consignee` SET `cgn_default`='是' WHERE `cgn_id` = 0 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002121s ]
+
+[ 2017-06-29T16:29:21+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0177s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-29T16:32:21+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0124s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-29T16:34:25+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0230s ]
+ERR: Think\Model:dave方法不存在！
+
+[ 2017-06-29T16:35:29+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0220s ]
+SQL: UPDATE `sp_consignee` SET `cgn_default`='是' WHERE `cgn_id` = 0 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2017-06-29T16:36:11+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+
+[ 2017-06-29T16:38:17+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0117s ]
+SQL: UPDATE `sp_consignee` SET `cgn_default`='是' WHERE `cgn_id` = 8 [ RunTime:0.0484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-06-29T16:38:38+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0301s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=19 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2017-06-29T16:38:41+08:00 ] 127.0.0.1 /index.php/Cart/getarea.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0645s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `sp_region` WHERE ( parent_id=20 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2017-06-29T16:38:56+08:00 ] 127.0.0.1 /index.php/Cart/deal_cgn.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_region` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_region` WHERE ( id=19 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_region` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0116s ]
+SQL: INSERT INTO `sp_consignee` (`cgn_name`,`cgn_prov_id`,`cgn_city_id`,`cgn_area_id`,`cgn_address`,`cgn_tel`,`cgn_mem_id`) VALUES ('王八','19','20','24','天津市天津南开区不知道是哪','12365478956','5') [ RunTime:0.0704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2017-06-29T16:43:57+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-06-29T16:44:52+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0100s ]
+SQL: UPDATE `sp_consignee` SET `cgn_default`='是' WHERE `cgn_id` = 10 [ RunTime:0.0362s ]
+SQL: UPDATE `sp_consignee` SET `cgn_default`='是' WHERE ( cgn_id!=10 ) [ RunTime:0.0420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002190s ]
+
+[ 2017-06-29T16:45:37+08:00 ] 127.0.0.1 /index.php/Cart/changeDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `sp_consignee` [ RunTime:0.0102s ]
+SQL: UPDATE `sp_consignee` SET `cgn_default`='是' WHERE `cgn_id` = 9 [ RunTime:0.0456s ]
+SQL: UPDATE `sp_consignee` SET `cgn_default`='否' WHERE ( cgn_id!=9 ) [ RunTime:0.0411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002948s ]
+
+[ 2017-06-29T17:01:05+08:00 ] 127.0.0.1 /index.php/Cart/flow2.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '是' in 'where clause'
+

@@ -1,0 +1,458 @@
+[ 2017-06-26T15:25:19+08:00 ] 127.0.0.1 /index.php/Index/detail/goods_id/14.html?Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008844s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.1106s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.1818s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_id=14 ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `sp_picture` [ RunTime:0.1406s ]
+SQL: SELECT * FROM `sp_picture` WHERE ( pic_goods_id=14 )  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.1125s ]
+SQL: SELECT g.ga_attr_values,a.attr_name FROM sp_goodsattr g left join sp_attribute a on g.ga_attr_id = a.attr_id  WHERE ( g.ga_goods_id =14 )  [ RunTime:0.0027s ]
+SQL: SELECT g.ga_attr_values,a.attr_name FROM sp_goodsattr g left join sp_attribute a on g.ga_attr_id = a.attr_id  WHERE ( a.attr_type='单选' and g.ga_goods_id =14 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001530s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001927s ]
+NOTIC: [8] Undefined variable: number_price D:\sever\text\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 439 行.
+NOTIC: [8] Undefined variable: number_price D:\sever\text\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.324767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.325305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010718s ]
+
+[ 2017-06-26T15:26:57+08:00 ] 127.0.0.1 /index.php/Index/detail/goods_id/14.html?Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007566s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.1064s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.1435s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_id=14 ) LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `sp_picture` [ RunTime:0.1027s ]
+SQL: SELECT * FROM `sp_picture` WHERE ( pic_goods_id=14 )  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0799s ]
+SQL: SELECT g.ga_attr_values,a.attr_name FROM sp_goodsattr g left join sp_attribute a on g.ga_attr_id = a.attr_id  WHERE ( g.ga_goods_id =14 )  [ RunTime:0.0014s ]
+SQL: SELECT g.ga_attr_values,a.attr_name FROM sp_goodsattr g left join sp_attribute a on g.ga_attr_id = a.attr_id  WHERE ( a.attr_type='单选' and g.ga_goods_id =14 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001298s ]
+NOTIC: [8] Undefined variable: number_price D:\sever\text\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 439 行.
+NOTIC: [8] Undefined variable: number_price D:\sever\text\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.236287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015009s ]
+
+[ 2017-06-26T15:29:06+08:00 ] 127.0.0.1 /index.php/Index/detail/goods_id/14.html?Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010163s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.1067s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.1297s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_id=14 ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `sp_picture` [ RunTime:0.1245s ]
+SQL: SELECT * FROM `sp_picture` WHERE ( pic_goods_id=14 )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0722s ]
+SQL: SELECT g.ga_attr_values,a.attr_name FROM sp_goodsattr g left join sp_attribute a on g.ga_attr_id = a.attr_id  WHERE ( g.ga_goods_id =14 )  [ RunTime:0.0014s ]
+SQL: SELECT g.ga_attr_values,a.attr_name FROM sp_goodsattr g left join sp_attribute a on g.ga_attr_id = a.attr_id  WHERE ( a.attr_type='单选' and g.ga_goods_id =14 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001239s ]
+NOTIC: [8] Undefined variable: number_price D:\sever\text\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 439 行.
+NOTIC: [8] Undefined variable: number_price D:\sever\text\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.191840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.192239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011167s ]
+
+[ 2017-06-26T15:29:45+08:00 ] 127.0.0.1 /index.php/Index/detail/goods_id/14.html?Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018124s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.1261s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.1749s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_id=14 ) LIMIT 1   [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `sp_picture` [ RunTime:0.1499s ]
+SQL: SELECT * FROM `sp_picture` WHERE ( pic_goods_id=14 )  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.1263s ]
+SQL: SELECT g.ga_attr_values,a.attr_name FROM sp_goodsattr g left join sp_attribute a on g.ga_attr_id = a.attr_id  WHERE ( g.ga_goods_id =14 )  [ RunTime:0.0017s ]
+SQL: SELECT g.ga_attr_values,a.attr_name FROM sp_goodsattr g left join sp_attribute a on g.ga_attr_id = a.attr_id  WHERE ( a.attr_type='单选' and g.ga_goods_id =14 )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001619s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: number_price D:\sever\text\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 439 行.
+NOTIC: [8] Undefined variable: number_price D:\sever\text\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.307674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015044s ]
+
+[ 2017-06-26T15:31:01+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010258s ]
+
+[ 2017-06-26T15:34:38+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009556s ]
+
+[ 2017-06-26T15:38:02+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009643s ]
+
+[ 2017-06-26T15:44:41+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008302s ]
+
+[ 2017-06-26T15:45:21+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009352s ]
+
+[ 2017-06-26T15:48:12+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007165s ]
+
+[ 2017-06-26T15:51:26+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007252s ]
+
+[ 2017-06-26T15:56:52+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015115s ]
+
+[ 2017-06-26T15:58:05+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011053s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1777s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('14','1','机身颜色:金色,存储容量:128G,运行内存:6G,','5') [ RunTime:0.1242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007623s ]
+
+[ 2017-06-26T16:01:50+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011362s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1037s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('14','2','机身颜色:白色,存储容量:128G,运行内存:6G,','5') [ RunTime:0.0671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006253s ]
+
+[ 2017-06-26T16:20:22+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009629s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1120s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('14','2','机身颜色:白色,存储容量:128G,运行内存:6G,','5') [ RunTime:0.1433s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0336s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_mem_id=5 ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008048s ]
+
+[ 2017-06-26T16:25:12+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014523s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0974s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('14','1','机身颜色:白色,存储容量:128G,运行内存:6G,','5') [ RunTime:0.0393s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_mem_id=5 ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005725s ]
+
+[ 2017-06-26T16:35:13+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009046s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0928s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('14','1','机身颜色:白色,存储容量:128G,运行内存:6G,','5') [ RunTime:0.0628s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_mem_id=5 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008847s ]
+
+[ 2017-06-26T16:38:45+08:00 ] 127.0.0.1 /index.php/Cart/flow.html
+ERR: 非法操作:flow
+
+[ 2017-06-26T16:39:14+08:00 ] 127.0.0.1 /index.php/Cart/flow.html
+ERR: 非法操作:flow
+
+[ 2017-06-26T16:40:34+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009996s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1041s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('14','1','机身颜色:金色,存储容量:128G,运行内存:6G,','5') [ RunTime:0.0360s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_mem_id=5 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006846s ]
+
+[ 2017-06-26T17:34:45+08:00 ] 127.0.0.1 /index.php/Cart/flow1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-26T18:00:10+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007484s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1070s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-26T18:00:20+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006256s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0912s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-26T18:04:00+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007352s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0880s ]
+SQL: DELETE FROM `sp_cart` WHERE ( cart_id=6 ) [ RunTime:0.0687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005584s ]
+
+[ 2017-06-26T18:19:34+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010112s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1336s ]
+SQL: DELETE FROM `sp_cart` WHERE ( cart_id=4 ) [ RunTime:0.0433s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008730s ]
+
+[ 2017-06-26T18:20:19+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009306s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1796s ]
+SQL: DELETE FROM `sp_cart` WHERE ( cart_id=5 ) [ RunTime:0.0328s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011905s ]
+
+[ 2017-06-26T18:24:08+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006385s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0922s ]
+SQL: DELETE FROM `sp_cart` WHERE ( cart_id=1 ) [ RunTime:0.0392s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005850s ]
+
+[ 2017-06-26T18:24:14+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008962s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1651s ]
+SQL: DELETE FROM `sp_cart` WHERE ( cart_id=1 ) [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005630s ]
+
+[ 2017-06-26T18:26:57+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008668s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1203s ]
+SQL: DELETE FROM `sp_cart` WHERE ( cart_id=3 ) [ RunTime:0.0347s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006530s ]
+
+[ 2017-06-26T18:35:23+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014861s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1095s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('14','1','机身颜色:黑色,存储容量:128G,运行内存:6G,','5') [ RunTime:0.0614s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2017-06-26T18:35:43+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009886s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1183s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('16','2','机身颜色:金色,存储容量:64G,运行内存:3G,','5') [ RunTime:0.0343s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2017-06-26T18:36:25+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017942s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0906s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('15','1','机身颜色:玫瑰金,存储容量:128G,运行内存:4G,','5') [ RunTime:0.0599s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-06-26T18:41:14+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008154s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1203s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('15','2','机身颜色:土豪金,存储容量:128G,运行内存:4G,','5') [ RunTime:0.0446s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2017-06-26T18:41:16+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011457s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1275s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('15','2','机身颜色:土豪金,存储容量:128G,运行内存:4G,','5') [ RunTime:0.0350s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-06-26T18:42:52+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009253s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0949s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('15','2','机身颜色:土豪金,存储容量:128G,运行内存:4G,','5') [ RunTime:0.0576s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-06-26T18:44:34+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006689s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1533s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('14','1','机身颜色:金色,存储容量:128G,运行内存:6G,','5') [ RunTime:0.0646s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-06-26T18:46:18+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009881s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1270s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('14','1','机身颜色:黑色,存储容量:128G,运行内存:6G,','5') [ RunTime:0.0320s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_mem_id=5 ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007963s ]
+
+[ 2017-06-26T18:47:49+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007878s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0946s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('14','1','机身颜色:黑色,存储容量:128G,运行内存:6G,','5') [ RunTime:0.0636s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_mem_id=5 ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008773s ]
+
+[ 2017-06-26T18:48:08+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006357s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0904s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-26T18:48:14+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010116s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0945s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-26T18:48:16+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010643s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0918s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-26T18:51:40+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006586s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0921s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-26T18:59:16+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010167s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1524s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-26T18:59:26+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007062s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1224s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-26T19:00:06+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006006s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1356s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-06-26T19:00:38+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006014s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1026s ]
+SQL: DELETE FROM `sp_cart` WHERE ( cart_id=14 ) [ RunTime:0.0378s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005683s ]
+
+[ 2017-06-26T19:01:13+08:00 ] 127.0.0.1 /index.php/Cart/delOne.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007078s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1119s ]
+SQL: DELETE FROM `sp_cart` WHERE ( cart_id=12 ) [ RunTime:0.0395s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005898s ]
+

@@ -1,0 +1,42 @@
+[ 2017-06-25T00:04:20+08:00 ] 127.0.0.1 /index.php/Index/detail/goods_id/13.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.attr_type='单选' )' at line 1
+
+[ 2017-06-25T00:20:20+08:00 ] 127.0.0.1 /index.php/Index/detail/goods_id/13.html
+ERR: XML标签语法错误 : name="<?php echo ($vs["ga_attr_values"]); ?
+
+[ 2017-06-25T19:08:24+08:00 ] 127.0.0.1 /index.php/Member/register.html
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'mem_salt' at row 1
+
+[ 2017-06-25T19:13:24+08:00 ] 127.0.0.1 /index.php/Member/register.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'mem_name'
+
+[ 2017-06-25T19:13:58+08:00 ] 127.0.0.1 /index.php/Member/register.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'mem_name'
+
+[ 2017-06-25T19:24:07+08:00 ] 127.0.0.1 /index.php/Member/login.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'itshop.sp_memeber' doesn't exist
+
+[ 2017-06-25T19:24:50+08:00 ] 127.0.0.1 /index.php/Member/login.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ajax' in 'where clause'
+
+[ 2017-06-25T19:26:55+08:00 ] 127.0.0.1 /index.php/Member/login.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ajax' in 'where clause'
+
+[ 2017-06-25T19:27:08+08:00 ] 127.0.0.1 /index.php/Member/login.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'jax' in 'where clause'
+
+[ 2017-06-25T19:29:19+08:00 ] 127.0.0.1 /index.php/Member/login.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'jincs' in 'where clause'
+
+[ 2017-06-25T19:56:03+08:00 ] 127.0.0.1 /index.php/Member/lgout.html
+ERR: 非法操作:lgout
+
+[ 2017-06-25T19:57:34+08:00 ] 127.0.0.1 /index.php/Member/lgout.html
+ERR: 非法操作:lgout
+
+[ 2017-06-25T21:40:41+08:00 ] 127.0.0.1 /index.php/Index/detail/goods_id/shopshow.php
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shopshow.php' in 'where clause'
+
+[ 2017-06-25T22:34:24+08:00 ] 127.0.0.1 /index.php/Index/detail/goods_id/shopshow.php
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shopshow.php' in 'where clause'
+

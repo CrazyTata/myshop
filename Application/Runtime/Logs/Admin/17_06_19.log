@@ -1,0 +1,182 @@
+[ 2017-06-19T19:04:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-06-19T19:07:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-06-19T19:13:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-06-19T19:14:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-06-19T19:15:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-06-19T19:15:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-06-19T19:15:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-06-19T19:16:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-06-19T19:17:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-06-19T19:18:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-06-19T19:18:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-06-19T19:20:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-06-19T19:22:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '干活' for key 'goods_name'
+
+[ 2017-06-19T19:40:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0972s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 0 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001867s ]
+
+[ 2017-06-19T19:43:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0776s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 0 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002805s ]
+
+[ 2017-06-19T19:44:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0793s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 0 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003559s ]
+
+[ 2017-06-19T19:44:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0589s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 0 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002268s ]
+
+[ 2017-06-19T19:48:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0983s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 0 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002552s ]
+
+[ 2017-06-19T19:48:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0729s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 0 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001741s ]
+
+[ 2017-06-19T19:48:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0339s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 0 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-06-19T19:49:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0670s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 0 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001525s ]
+
+[ 2017-06-19T19:51:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0609s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 1 [ RunTime:0.0467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001903s ]
+
+[ 2017-06-19T19:55:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0453s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 1 [ RunTime:0.0380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002235s ]
+
+[ 2017-06-19T19:56:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0686s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 2 [ RunTime:0.0407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003277s ]
+
+[ 2017-06-19T20:00:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.1028s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 3 [ RunTime:0.0436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002549s ]
+
+[ 2017-06-19T20:04:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0726s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 1 [ RunTime:0.0469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2017-06-19T20:04:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0685s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 4 [ RunTime:0.0427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003356s ]
+
+[ 2017-06-19T23:19:07+08:00 ] 127.0.0.1 /index.php/Admin/Picture/showlist.html
+ERR: 不支持的图片处理库类型
+

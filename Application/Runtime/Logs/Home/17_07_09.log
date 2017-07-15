@@ -1,0 +1,28 @@
+[ 2017-07-09T20:00:15+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007274s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.1724s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.3565s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('16','1','机身颜色:黑色,存储容量:64G,运行内存:3G,','5') [ RunTime:0.2912s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0575s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_mem_id=5 ) LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005940s ]
+
+[ 2017-07-09T20:00:21+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009723s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.1173s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.1257s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('16','1','机身颜色:黑色,存储容量:64G,运行内存:3G,','5') [ RunTime:0.0997s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_mem_id=5 ) LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005230s ]
+

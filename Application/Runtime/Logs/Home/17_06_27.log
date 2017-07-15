@@ -1,0 +1,30 @@
+[ 2017-06-27T18:28:16+08:00 ] 127.0.0.1 /Home/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0311s ]
+SQL: INSERT INTO `sp_cart` (`cart_goods_id`,`cart_num`,`cart_goods_attr`,`cart_mem_id`) VALUES ('17','2','内存类型:DDR4,硬盘类型:固态硬盘,','5') [ RunTime:0.2541s ]
+SQL: SELECT SUM(c.cart_num * g.goods_price) AS tp_sum FROM sp_cart c left join sp_goods g on g.goods_id = c.cart_goods_id   WHERE ( c.cart_mem_id =5 ) LIMIT 1   [ RunTime:0.0894s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_mem_id=5 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004190s ]
+
+[ 2017-06-27T19:43:44+08:00 ] 127.0.0.1 /index.php/Cart/flow2.html
+ERR: 模板不存在:./Application/Home/View/Cart/flow2.html
+
+[ 2017-06-27T22:05:01+08:00 ] 127.0.0.1 /index.php/Cart/flow3.html
+ERR: Think\Model:addCart方法不存在！
+
+[ 2017-06-27T22:05:33+08:00 ] 127.0.0.1 /index.php/Cart/flow3.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'order_number' doesn't have a default value
+
+[ 2017-06-27T23:08:01+08:00 ] 127.0.0.1 /index.php/Cart/flow3.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'itshop.sp_order_goods' doesn't exist
+
+[ 2017-06-27T23:08:53+08:00 ] 127.0.0.1 /index.php/Cart/flow3.html
+ERR: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+
+[ 2017-06-27T23:09:53+08:00 ] 127.0.0.1 /index.php/Cart/flow3.html
+ERR: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+

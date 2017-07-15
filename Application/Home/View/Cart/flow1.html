@@ -1,0 +1,104 @@
+{__NOLAYOUT__}
+<layout name="cart" />
+
+    <link rel="stylesheet" href="__PUBLIC__/Home/style/cart.css" type="text/css">
+
+
+    <script type="text/javascript">
+        $(function(){
+            $('.delOne').click(function(){
+                var _this = $(this);
+                var cart_id = $(this).attr('datadel');
+                $.post("{:U('Cart/delOne')}", {'cart_id': cart_id}, function (msg) {
+                    if (msg == 0) {
+                        alert("删除失败");
+                    } else {
+                        $('#total').html(msg);
+                        _this.parent().parent().remove();
+                    }
+                })
+            })
+        });
+        function changeNum(type,cart_id) {
+            //当点击+ - 的时候小框框里面的值跟着变化
+            var num_obj = $("[name=amount"+cart_id+"]");
+            var num =num_obj.val();
+            if(type=='add'){
+                ++num;
+            }else if(type=='reduce'){
+                if(num<=1){
+                    alert ("最小购买数量为1");
+                }else{
+                    --num;
+                }
+            }else{
+                if(num<=1){
+                    alert ("最小购买数量为1");
+                    num = 1;
+                }
+            }
+            num_obj.val(num);
+            //发送ajax请求,改变数据库中的num值
+            $.post("{:U('Cart/changeNum')}",{'cart_id':cart_id,'num':num},function(msg){
+                if(msg == 222){
+                    alert('修改错误');
+                }else{
+                    var price = num_obj.parent().parent().find('.col3 span').html();
+                    var res = price * num;
+                    num_obj.parent().parent().find('.col5 span').html(res);
+                    $('#total').html(msg);
+                }
+            })
+        }
+
+    </script>
+
+<div style="clear:both;"></div>
+
+<!-- 主体部分 start -->
+<div class="mycart w990 mt10 bc">
+    <h2><span>我的购物车</span></h2>
+    <table>
+        <thead>
+        <tr>
+            <th class="col1">商品名称</th>
+            <th class="col2">商品信息</th>
+            <th class="col3">单价</th>
+            <th class="col4">数量</th>
+            <th class="col5">小计</th>
+            <th class="col6">操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <foreach name="cartInfo" item="v">
+            <tr>
+                <td class="col1"><a href=""><img src="{$v.goods_small_logo}" alt=""/></a> <strong><a href="">{$v.goods_name}</a></strong>
+                </td>
+                <td class="col2">
+                    <foreach name="v['cart_goods_attr']" item="vs" key="k"> {$vs}</foreach>
+                </td>
+                <td class="col3">￥<span>{$v.goods_price}</span></td>
+                <td class="col4">
+                    <a href="javascript:;" class="reduce_num" onclick="changeNum('reduce',{$v['cart_id']})" ></a>
+                    <input type="text" name="amount{$v['cart_id']}" value="{$v.cart_num}" onkeyup="changeNum('key',{$v['cart_id']})" class="amount"/>
+                    <a href="javascript:;" onclick="changeNum('add',{$v['cart_id']})" class="add_num"></a>
+                </td>
+                <td class="col5">￥<span>{$v.total}</span></td>
+                <td class="col6"><a href="javascript:;" datadel="{$v.cart_id}" class="delOne">删除</a></td>
+            </tr>
+        </foreach>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="6">购物金额总计： <strong>￥ <span id="total">{$result_price}</span></strong></td>
+        </tr>
+        </tfoot>
+    </table>
+    <div class="cart_btn w990 bc mt10">
+        <a href="" class="continue">继续购物</a>
+        <a href="{:U('flow2')}" class="checkout">结 算</a>
+    </div>
+</div>
+<!-- 主体部分 end -->
+
+<div style="clear:both;"></div>

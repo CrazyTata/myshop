@@ -1,0 +1,220 @@
+{__NOLAYOUT__}
+<layout name="cart" />
+<div style="clear:both;"></div>
+<script type="text/javascript" src="__PUBLIC__/Home/js/cart2.js"></script>
+<link rel="stylesheet" href="__PUBLIC__/Home/style/fillin.css" type="text/css">
+<!-- 主体部分 start -->
+<div class="fillin w990 bc mt15">
+    <div class="fillin_hd">
+        <h2>填写并核对订单信息</h2>
+    </div>
+<form action="{:U('flow3')}"  method="post" >
+    <div class="fillin_bd">
+        <div class="address">
+            <h3>收货人信息 <a href="javascript:;" id="address_modify">[修改]</a></h3>
+            <div class="address_info">
+                <input type="radio" name="order_cgn_id" checked="checked" value="{$cgnInfo_default.cgn_id}" />{$cgnInfo_default.cgn_name}{$cgnInfo_default.cgn_tel}
+                {$cgnInfo_default.cgn_address}
+            </div>
+
+            <div class="address_select none">
+                <ul>
+                    <foreach name="cgnInfo" item="v">
+                    <li class="cur">
+                        <input type="radio" name="order_cgn_id" value="{$v.cgn_id}" />{$v.cgn_name}{$v.cgn_address}{$v.cgn_tel}
+                        <a href="javascript:;"  onclick="changeDefault({$v.cgn_id})" >设为默认地址</a>
+                        <a href="">编辑</a>
+                        <a href="">删除</a>
+                    </li>
+                    </foreach>
+                    <li><input type="radio" name="order_cgn_id" class="new_address"  />使用新地址</li>
+                </ul>
+                    <ul>
+                        <li>
+                            <label for=""><span>*</span>收 货 人：</label>
+                            <input type="text" name="cgn_name" class="txt" />
+                        </li>
+                        <li>
+                            <label for=""><span>*</span>所在地区：</label>
+                            <select name="cgn_prov_id" id="province" onchange="getArea(this.value,2)">
+                                <option value="0">请选择</option>
+                                <foreach name="provinceInfo" item="v">
+                                    <option value="{$v.id}">{$v.area_name}</option>
+                                </foreach>
+                            </select>
+                            <select name="cgn_city_id" id="level2" onchange="getArea(this.value,3)">
+                                <option value="">请选择</option>
+
+                            </select>
+                            <select name="cgn_area_id" id="level3">
+                                <option value="">请选择</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for=""><span>*</span>详细地址：</label>
+                            <input type="text" name="cgn_address" class="txt address"  />
+                        </li>
+                        <li>
+                            <label for=""><span>*</span>手机号码：</label>
+                            <input type="text" name="cgn_tel" class="txt" />
+                        </li>
+                    </ul>
+                <a href="javascript:;" class="confirm_btn"><span>保存收货人信息</span></a>
+            </div>
+        </div>
+        <!-- 配送方式 start -->
+        <div class="delivery">
+            <h3>送货方式 </h3>
+            <div class="delivery_info">
+                <p><input type="radio" name="order_send_way" checked="checked" value="顺丰"/>顺丰</p>
+                <p><input type="radio" name="order_send_way" checked="checked" value="EMS"/>EMS</p>
+                <p><input type="radio" name="order_send_way" checked="checked" value="申通"/>申通</p>
+                <p><input type="radio" name="order_send_way" checked="checked" value="韵达"/>韵达</p>
+            </div>
+
+        </div>
+        <!-- 配送方式 end -->
+
+        <!-- 支付方式  start-->
+        <div class="pay">
+            <h3>支付方式 </h3>
+            <div class="pay_info">
+                <p><input type="radio" name="order_pay" checked="checked" value="支付宝"/>支付宝</p>
+                <p><input type="radio" name="order_pay" value="微信"/>微信</p>
+                <p><input type="radio" name="order_pay" value="银联卡"/>银联卡</p>
+            </div>
+
+        </div>
+        <!-- 支付方式  end-->
+
+        <!-- 发票信息 start-->
+        <div class="receipt">
+            <h3>发票信息 </h3>
+            <div class="receipt_info">
+                <p>
+                    <label for="">发票抬头：</label>
+                    <input type="radio" name="order_title" checked="checked" value="个人" class="personal"/>个人
+                    <input type="radio" name="order_title" class="company" value="单位" />单位
+                    <input type="text" name="order_company" class="company_input"  disabled="disabled"/>
+                </p>
+                <p>
+                    <label for="">发票内容：</label>
+                    <input type="radio" name="order_content" value="明细" checked="checked"/>明细
+                    <input type="radio" name="order_content" value="办公用品" />办公用品
+                    <input type="radio" name="order_content" value="体育休闲"  />体育休闲
+                    <input type="radio" name="order_content" value="耗材" />耗材
+                </p>
+            </div>
+
+        </div>
+        <!-- 发票信息 end-->
+        <!-- 商品清单 start -->
+        <div class="goods">
+            <h3>商品清单</h3>
+            <table>
+                <thead>
+                <tr>
+                    <th class="col1">商品</th>
+                    <th class="col2">规格</th>
+                    <th class="col3">价格</th>
+                    <th class="col4">数量</th>
+                    <th class="col5">小计</th>
+                </tr>
+                </thead>
+                <tbody>
+                <foreach name="cartInfo" item="v">
+                <tr>
+                    <td class="col1"><a href=""><img src="{$v.goods_small_logo}" alt=""/></a>
+                        <strong><a href="">{$v.goods_name}</a></strong></td>
+                    <td class="col2"> <foreach name="v['cart_goods_attr']" item="vs" key="k"> {$vs}</foreach></td>
+                    <td class="col3">￥{$v.goods_price}</td>
+                    <td class="col4"> {$v.cart_num}</td>
+                    <td class="col5"><span>￥{$v.total}</span></td>
+                </tr>
+                </foreach>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="5">
+                        <ul>
+                            <li>
+                                <span>4 件商品，总商品金额：</span>
+                                <em>￥5316.00</em>
+                            </li>
+                            <li>
+                                <span>返现：</span>
+                                <em>-￥240.00</em>
+                            </li>
+                            <li>
+                                <span>运费：</span>
+                                <em>￥10.00</em>
+                            </li>
+                            <li>
+                                <span>应付总额：</span>
+                                <em>￥{$result_price}</em>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+        <!-- 商品清单 end -->
+
+    </div>
+<!--</form>-->
+    <div class="fillin_ft">
+        <a href="javascript:;" class="submit"><span>提交订单</span></a>
+        <p>应付总额：<strong>￥{$result_price}元</strong></p>
+
+    </div>
+</div>
+<!-- 主体部分 end -->
+<script type="text/javascript">
+    //表单提交事件
+    $('.submit').click(function(){
+        $('form').submit();
+    });
+    $('.confirm_btn').click(function(){
+        var cgn_name = $("[name='cgn_name']").val();
+        var cgn_prov_id = $("[name='cgn_prov_id']").val();
+        var cgn_city_id = $("[name='cgn_city_id']").val();
+        var cgn_area_id = $("[name='cgn_area_id']").val();
+        var cgn_address = $("[name='cgn_address']").val();
+        var cgn_tel = $("[name='cgn_tel']").val();
+        var data = {
+            'cgn_name': cgn_name,
+            'cgn_prov_id': cgn_prov_id,
+            'cgn_city_id': cgn_city_id,
+            'cgn_area_id': cgn_area_id,
+            'cgn_address': cgn_address,
+            'cgn_tel': cgn_tel
+    };
+        $.post("{:U('Cart/deal_cgn')}",data,function(msg){
+
+            var str = "<li class='cur'> <input type='radio' name='order_cgn_id' value='"+msg.id+"' /> "+cgn_name+msg.address+cgn_tel+"<a href='javascript:;'  onclick='changeDefault("+msg.id+")' >设为默认地址</a> <a href=''>编辑</a> <a href=''>删除</a> </li>" ;
+            $('.new_address').parent().before(str);
+        },'json')
+    })
+    //三级联动地区
+    function getArea(pid,n){
+        $('#level'+n).empty();
+        $('#level'+n).append("<option value='0'>--请选择--</option>");
+        $('#level'+(n+1)).empty();
+        $('#level'+(n+1)).append("<option value='0'>--请选择--</option>");
+        $.post("{:U('Cart/getarea')}",{'parent_id':pid},function(msg){
+            var str = '';
+            $.each(msg,function(k,v){
+                str += "<option value='"+v.id+"'>"+v.area_name+"</option>";
+            })
+            $('#level'+n).append(str);
+        },'json')
+    }
+    //修改是否为默认地址
+    function changeDefault(id){
+        $.post("{:U('Cart/changeDefault')}",{'id':id},function(msg){
+            alert(msg);
+        })
+    }
+</script>
+<div style="clear:both;"></div>

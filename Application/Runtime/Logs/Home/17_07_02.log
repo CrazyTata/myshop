@@ -1,0 +1,17 @@
+[ 2017-07-02T14:17:41+08:00 ] 127.0.0.1 /Api/Goods/getGoods/name/wade/pass/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F/nowPage/1/page/2
+ERR: 无法加载控制器:Api
+
+[ 2017-07-02T14:26:58+08:00 ] 127.0.0.1 /Api/Goods/getGoods/name/wade/pass/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F/nowPage/1/page/2
+ERR: 无法加载控制器:Api
+
+[ 2017-07-02T16:06:04+08:00 ] 127.0.0.1 /index.php/Member/sendMessage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012711s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0931s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0034s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\sever\text\itshop\Application\Home\Controller\MemberController.class.php 第 81 行.
+
+[ 2017-07-02T16:41:37+08:00 ] 127.0.0.1 /Home/Member/register
+ERR: Message body empty
+

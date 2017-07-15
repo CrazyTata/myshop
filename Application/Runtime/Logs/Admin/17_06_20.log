@@ -1,0 +1,171 @@
+[ 2017-06-20T11:24:35+08:00 ] 127.0.0.1 /index.php/Admin/Picture/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `sp_picture` [ RunTime:0.0237s ]
+NOTIC: [8] Undefined variable: goods D:\sever\text\itshop\Application\Admin\Controller\PictureController.class.php 第 32 行.
+
+[ 2017-06-20T11:26:45+08:00 ] 127.0.0.1 /index.php/Admin/Picture/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+NOTIC: [8] Undefined variable: goods D:\sever\text\itshop\Application\Admin\Controller\PictureController.class.php 第 32 行.
+
+[ 2017-06-20T11:28:04+08:00 ] 127.0.0.1 /index.php/Admin/Picture/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `sp_picture` [ RunTime:0.0629s ]
+ERR: Think\Model:filed方法不存在！
+
+[ 2017-06-20T11:29:38+08:00 ] 127.0.0.1 /index.php/Admin/Picture/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `sp_picture` [ RunTime:0.0304s ]
+SQL: SELECT `pic_id`,`pic_goods_id`,`pic_ori`,`pic_mid`,`pic_sma` FROM `sp_picture` WHERE `pic_id` = 20 LIMIT 1   [ RunTime:0.0015s ]
+SQL: DELETE FROM `sp_picture` WHERE `pic_id` = 20 [ RunTime:0.2253s ]
+NOTIC: [8] Undefined index: pic_big D:\sever\text\itshop\Application\Admin\Model\PictureModel.class.php 第 55 行.
+NOTIC: [2] unlink(): Invalid argument D:\sever\text\itshop\Application\Admin\Model\PictureModel.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004908s ]
+
+[ 2017-06-20T11:32:40+08:00 ] 127.0.0.1 /index.php/Admin/Picture/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `sp_picture` [ RunTime:0.1075s ]
+SQL: SELECT `pic_id`,`pic_goods_id`,`pic_ori`,`pic_mid`,`pic_sma` FROM `sp_picture` WHERE `pic_id` = 21 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_picture` WHERE `pic_id` = 21 [ RunTime:0.0394s ]
+NOTIC: [8] Undefined index: pic_big D:\sever\text\itshop\Application\Admin\Model\PictureModel.class.php 第 55 行.
+NOTIC: [2] unlink(): Invalid argument D:\sever\text\itshop\Application\Admin\Model\PictureModel.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2017-06-20T11:55:57+08:00 ] 127.0.0.1 /index.php/Admin/Picture/upd/goods_id/1.html
+ERR: 非法操作:upd
+
+[ 2017-06-20T12:44:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0933s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 7 [ RunTime:0.0550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002119s ]
+
+[ 2017-06-20T12:44:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0834s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 7 [ RunTime:0.0339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003403s ]
+
+[ 2017-06-20T17:43:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0313s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 7 [ RunTime:0.1391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2017-06-20T17:44:03+08:00 ] 127.0.0.1 /index.php/Admin/Picture/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002736s ]
+SQL: SHOW COLUMNS FROM `sp_picture` [ RunTime:0.0667s ]
+SQL: SELECT `pic_id`,`pic_goods_id`,`pic_ori`,`pic_mid`,`pic_sma` FROM `sp_picture` WHERE `pic_id` = 34 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_picture` WHERE `pic_id` = 34 [ RunTime:0.0736s ]
+NOTIC: [8] Undefined index: pic_big D:\sever\text\itshop\Application\Admin\Model\PictureModel.class.php 第 55 行.
+NOTIC: [2] unlink(): Invalid argument D:\sever\text\itshop\Application\Admin\Model\PictureModel.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2017-06-20T17:44:14+08:00 ] 127.0.0.1 /index.php/Admin/Picture/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `sp_picture` [ RunTime:0.0275s ]
+SQL: SELECT `pic_id`,`pic_goods_id`,`pic_ori`,`pic_mid`,`pic_sma` FROM `sp_picture` WHERE `pic_id` = 33 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_picture` WHERE `pic_id` = 33 [ RunTime:0.0810s ]
+NOTIC: [8] Undefined index: pic_big D:\sever\text\itshop\Application\Admin\Model\PictureModel.class.php 第 55 行.
+NOTIC: [2] unlink(): Invalid argument D:\sever\text\itshop\Application\Admin\Model\PictureModel.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001512s ]
+
+[ 2017-06-20T19:01:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0619s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 7 [ RunTime:0.0371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003963s ]
+
+[ 2017-06-20T19:01:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='上架' WHERE `goods_id` = 7 [ RunTime:0.0568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005313s ]
+
+[ 2017-06-20T19:01:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0385s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 7 [ RunTime:0.0413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2017-06-20T19:01:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0661s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='上架' WHERE `goods_id` = 7 [ RunTime:0.0457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003429s ]
+
+[ 2017-06-20T19:02:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0702s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='下架' WHERE `goods_id` = 11 [ RunTime:0.0588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004742s ]
+
+[ 2017-06-20T19:02:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 11 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sp_goods` SET `goods_is_del`='上架' WHERE `goods_id` = 11 [ RunTime:0.0438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003833s ]
+

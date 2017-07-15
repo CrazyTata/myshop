@@ -1,0 +1,697 @@
+[ 2017-06-21T19:29:04+08:00 ] 127.0.0.1 /index.php/Admin/Cate/addCate
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cate_name' doesn't have a default value
+
+[ 2017-06-21T19:29:44+08:00 ] 127.0.0.1 /index.php/Admin/Cate/addCate
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cate_name' doesn't have a default value
+
+[ 2017-06-21T19:30:00+08:00 ] 127.0.0.1 /index.php/Admin/Cate/addCate
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cate_name' doesn't have a default value
+
+[ 2017-06-21T19:30:30+08:00 ] 127.0.0.1 /index.php/Admin/Cate/addCate
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'cate_name' doesn't have a default value
+
+[ 2017-06-21T20:12:52+08:00 ] 127.0.0.1 /index.php/Admin/Cate/css/style.css
+ERR: 非法操作:css
+
+[ 2017-06-21T20:12:52+08:00 ] 127.0.0.1 /index.php/Admin/Cate/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-06-21T21:17:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [8] Undefined index: logo D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0756s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\GoodsModel::addGoods(), called in D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php on line 34 and defined D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: logo D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'goods_name' doesn't have a default value
+
+[ 2017-06-21T21:18:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+NOTIC: [8] Undefined index: logo D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0335s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\GoodsModel::addGoods(), called in D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php on line 34 and defined D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: logo D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'goods_name' doesn't have a default value
+
+[ 2017-06-21T21:19:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+NOTIC: [8] Undefined index: logo D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0229s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\GoodsModel::addGoods(), called in D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php on line 34 and defined D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: logo D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'goods_name' doesn't have a default value
+
+[ 2017-06-21T21:23:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+NOTIC: [8] Undefined index: logo D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0171s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\GoodsModel::addGoods(), called in D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php on line 34 and defined D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: logo D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'goods_name' doesn't have a default value
+
+[ 2017-06-21T21:24:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+NOTIC: [8] Undefined index: logo D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0186s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\GoodsModel::addGoods(), called in D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php on line 34 and defined D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: logo D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'goods_name' doesn't have a default value
+
+[ 2017-06-21T21:25:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+NOTIC: [8] Undefined index: logo D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0174s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\GoodsModel::addGoods(), called in D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php on line 34 and defined D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: logo D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'goods_name' doesn't have a default value
+
+[ 2017-06-21T21:25:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+NOTIC: [8] Undefined index: logo D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0475s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\GoodsModel::addGoods(), called in D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php on line 34 and defined D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: logo D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'goods_name' doesn't have a default value
+
+[ 2017-06-21T21:27:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+NOTIC: [8] Undefined index: logo D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0659s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\GoodsModel::addGoods(), called in D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php on line 34 and defined D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: logo D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'goods_name' doesn't have a default value
+
+[ 2017-06-21T21:28:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+NOTIC: [8] Undefined index: logo D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0271s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\GoodsModel::addGoods(), called in D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php on line 34 and defined D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: logo D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'goods_name' doesn't have a default value
+
+[ 2017-06-21T21:30:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+NOTIC: [8] Undefined index: logo D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0345s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\GoodsModel::addGoods(), called in D:\sever\text\itshop\Application\Admin\Controller\GoodsController.class.php on line 34 and defined D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 31 行.
+NOTIC: [8] Undefined variable: logo D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\sever\text\itshop\Application\Admin\Model\GoodsModel.class.php 第 36 行.
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'goods_name' doesn't have a default value
+
+[ 2017-06-21T21:35:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2017-06-21T21:49:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0526s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004250s ]
+
+[ 2017-06-21T21:49:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0506s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2017-06-21T21:49:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=15 )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001526s ]
+
+[ 2017-06-21T21:49:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=14 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002551s ]
+
+[ 2017-06-21T21:53:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004411s ]
+
+[ 2017-06-21T21:53:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001980s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=14 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2017-06-21T21:54:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=2 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2017-06-21T21:55:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2017-06-21T21:55:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=15 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-06-21T21:55:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=2 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2017-06-21T21:56:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0661s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003272s ]
+
+[ 2017-06-21T21:56:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=14 )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001689s ]
+
+[ 2017-06-21T21:57:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=2 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2017-06-21T21:58:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002656s ]
+
+[ 2017-06-21T21:58:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0512s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=14 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2017-06-21T21:58:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=2 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002658s ]
+
+[ 2017-06-21T21:58:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-06-21T22:01:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002021s ]
+
+[ 2017-06-21T22:01:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=14 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2017-06-21T22:01:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0407s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=3 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2017-06-21T22:01:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0613s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=35 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002135s ]
+
+[ 2017-06-21T22:01:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2017-06-21T22:02:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=3 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001940s ]
+
+[ 2017-06-21T22:02:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=35 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002857s ]
+
+[ 2017-06-21T22:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2017-06-21T22:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=14 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2017-06-21T22:03:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0646s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=0 )  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003612s ]
+
+[ 2017-06-21T22:05:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2017-06-21T22:05:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=14 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2017-06-21T22:05:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0498s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=0 )  [ RunTime:0.0082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001919s ]
+
+[ 2017-06-21T22:38:14+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=3 )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004151s ]
+
+[ 2017-06-21T22:38:17+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=35 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002743s ]
+
+[ 2017-06-21T22:45:31+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0524s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=3 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002487s ]
+
+[ 2017-06-21T22:45:33+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=35 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2017-06-21T23:00:35+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist
+ERR: Think\Model:filed方法不存在！
+
+[ 2017-06-21T23:00:53+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on sp_cate c c.cate_id = a.arrt_cate_id' at line 1
+
+[ 2017-06-21T23:01:29+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.arrt_cate_id' in 'on clause'
+
+[ 2017-06-21T23:14:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0499s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2017-06-21T23:15:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=14 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2017-06-21T23:15:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( attr_cate_id=23 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2017-06-21T23:15:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=2 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001758s ]
+
+[ 2017-06-21T23:15:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=3 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-06-21T23:15:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0295s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=35 )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002346s ]
+
+[ 2017-06-21T23:15:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( attr_cate_id=55 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002103s ]
+
+[ 2017-06-21T23:49:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003564s ]
+
+[ 2017-06-21T23:49:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=14 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2017-06-21T23:53:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=1 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2017-06-21T23:53:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0472s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=15 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2017-06-21T23:53:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=2 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2017-06-21T23:53:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=3 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2017-06-21T23:53:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=35 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002472s ]
+
+[ 2017-06-21T23:53:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( attr_cate_id=55 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2017-06-21T23:55:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0532s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=3 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-06-21T23:55:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=35 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2017-06-21T23:55:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( attr_cate_id=55 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003521s ]
+
+[ 2017-06-21T23:57:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=3 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2017-06-21T23:57:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `sp_cate` WHERE ( cate_pid=35 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2017-06-21T23:57:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( attr_cate_id=55 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
